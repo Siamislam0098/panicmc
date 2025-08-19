@@ -858,7 +858,9 @@
 
             // Initial check on page load using the hard-coded values
             checkAndUpdateServerStatus();
+            setInterval(checkAndUpdateServerStatus, 5000);
         });
     </script>
 </body>
 </html>
+
